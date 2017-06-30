@@ -92,7 +92,8 @@ init() ->
                  dqe_log10_scale_trans,
                  dqe_min_trans,
                  dqe_max_trans,
-                 dqe_confidence
+                 dqe_confidence,
+                 dqe_replace_below_confidence
                 ],
     ArithFuns = [
                  dqe_add_arith,
